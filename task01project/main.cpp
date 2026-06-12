@@ -20,6 +20,7 @@ int main() {
 	print(convert(result, size_out));
 
 	delete[] array;
+	delete[] result;
 
 	return 0;
 }
