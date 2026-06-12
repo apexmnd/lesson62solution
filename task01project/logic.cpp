@@ -19,9 +19,8 @@ int* zip(int* array, int size, int* size_out) {
 
 	int* result = new int[*size_out];
 
-	for (int i = 0; i < size; i++)
+	for (int i = 0, j = 0; i < size; i++)
 	{
-		int j = 0;
 
 		int element = *(array + i);
 
